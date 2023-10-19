@@ -15,6 +15,9 @@ a{
     text-decoration:none ;
     margin-right: 30px;
 }
+.info:hover{
+    color: #fdff86;
+}
 a::before{
     content:" " ;
     background-color: #EB4747;
@@ -34,17 +37,4 @@ span{
     height: 10px;
     margin-right: 10px;
     
-}
-
-#button{
-    display: inline-block;
-    background-color: #EB4747;
-    padding: 18px 20px;
-    box-shadow: 5px 5px black;
-    margin-right: 0;
-    transition: transform 150ms linear;
-
-}
-#button:hover{
-    transform: scale(1.08);
 }
