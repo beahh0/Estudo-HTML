@@ -1,12 +1,19 @@
-h1{
+.title{
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
     color: #F25A70;
     text-shadow: 4px 4px #000;
 }
-h2{
+.title.-second{
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+    padding: 50px;
+}
+h3{
     font-size: 30px;
     font-family: 'Press Start 2P', sans-serif;
     text-shadow:  4px 4px 0 #000;
     color: #fff;
+    padding-top: 5px;
 }
