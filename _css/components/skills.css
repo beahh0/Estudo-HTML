@@ -3,4 +3,34 @@
     width: auto;
     height: 730px;
     border-bottom: 10px solid #7C5E99;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.component-skills{
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.component-skills .icon{
+    margin-right: 25px;
+}
+.component-skills .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.progress-bar{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 5px solid #000;
+    height: 40px;
+}
+.progress-bar::-webkit-progress-bar, 
+.progress-bar::-webkit-progress-value{
+    width: 70%;
+    background-color: #3DA989;
+}
+.progress-bar::-moz-progress-bar{
+    background-color: #3DA989;
 }
