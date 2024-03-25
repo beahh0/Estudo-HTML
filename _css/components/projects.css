@@ -1,4 +1,11 @@
 .projects{
     background-color: #000;
     height: 520px;
+    border-bottom: 10px solid  #F25A70;
+    padding-top: 50px;
+}
+
+.wrapper-card{
+    display: flex;
+    justify-content: center;
 }

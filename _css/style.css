@@ -5,7 +5,7 @@ header{
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
-a{
+.info, .button{
     display: inline-flex;
     align-items: center;
     font-size: 20px;
@@ -18,7 +18,7 @@ a{
 .info:hover{
     color: #fdff86;
 }
-a::before{
+.info::before{
     content:" " ;
     background-color: #EB4747;
     width: 10px;
